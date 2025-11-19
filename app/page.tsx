@@ -50,7 +50,7 @@ export default function LoginPopup() {
       />
 
       {/* Dark Overlay (30% opacity) */}
-      <div className="absolute inset-0 bg-black opacity-30" />
+      <div className="absolute inset-0 bg-black opacity-20" />
 
       {/* Centered Popup */}
       <div className="relative z-10 min-h-screen flex items-center justify-center">
@@ -65,7 +65,7 @@ export default function LoginPopup() {
             {/* Close button */}
             <button
               onClick={() => setOpen(false)}
-              className="text-gray-400 hover:text-gray-600 text-6xl leading-none"
+              className="text-gray-400 hover:text-gray-600 text-5xl leading-none"
             >
               ×
             </button>
